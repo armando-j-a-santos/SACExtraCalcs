@@ -7,18 +7,18 @@
 	constructor() {
 			super(); 
 			this._shadowRoot = this.attachShadow({mode: "open"});
-		    this._shadowRoot.appendChild(tmpl.content.cloneNode(true));
-		    this._functionN = "-";
-		    this._param1 = "-";
-		    this._param2 = "-";
-		    this._param3 = "-";
-		    this._param4 = "-";
-		    this._param5 = "-";
-		    this._param6 = "-";
-		    this._param7 = "-";
-		    this.isFormulaMade = false
-			this._resultString = "x";
-            loadLibrary(libraryUrl);
+		    	this._shadowRoot.appendChild(tmpl.content.cloneNode(true));
+		    	this._functionN = "-";
+		    	this._param1 = "-";
+		    	this._param2 = "-";
+		    	this._param3 = "-";
+		    	this._param4 = "-";
+		    	this._param5 = "-";
+		    	this._param6 = "-";
+		   	this._param7 = "-";
+		    	this.isFormulaMade = false
+		    	this._resultString = "x";
+            	    	loadLibrary(libraryUrl);
     }
 		
 	_submit(evento) {
@@ -142,7 +142,7 @@
 			this._resultString = value;
 		}		
 	};
-	customElements.define('com-sap-ajmlds-cwfunctionslibrary', CWFunctionsLibrary);	
+	customElements.define('com-sap-asantos-cwextracalcs', CWExtraCalcs);	
 })();
 
 	function loadLibrary(url) {
