@@ -3,7 +3,7 @@
     let libraryUrl = 'https://cdn.jsdelivr.net/npm/@formulajs/formulajs/lib/browser/formula.min.js';
     tmpl.innerHTML = `#`;
 
-    class CWFunctionsLibrary extends HTMLElement {
+    class CWExtraCalcs extends HTMLElement {
 	constructor() {
 			super(); 
 			this._shadowRoot = this.attachShadow({mode: "open"});
