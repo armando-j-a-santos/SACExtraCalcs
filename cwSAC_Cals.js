@@ -145,13 +145,13 @@
 	customElements.define('com-sap-asantos-cwextracalcs', CWExtraCalcs);	
 })();
 
-	function loadLibrary(url) {
+function loadLibrary(url) {
 		var script = document.createElement('script');
 		script.src = url;
 		document.head.appendChild(script);
-	}
+}
 
-	function makeFormula(typeFormula, arg1, arg2, arg3, arg4, arg5, arg6, arg7){
+function makeFormula(typeFormula, arg1, arg2, arg3, arg4, arg5, arg6, arg7){
 			let ListArguments = [arg1, arg2, arg3, arg4, arg5, arg6, arg7]
 			let formula = "formulajs." + typeFormula + "("
 			for (let x = 0; x < ListArguments.length; x++) {
@@ -174,4 +174,4 @@
 				return e.stack
 			}
 
-	}
+}
