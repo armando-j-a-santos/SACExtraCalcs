@@ -139,10 +139,11 @@
 	set resultString(value) {
 		this._resultString = value;
 	}		
-}; 		// to close: class CWExtraCalcs extends HTMLElement
-// Return to SAC
-customElements.define('com-sap-asantos-cwextracalcs', CWExtraCalcs);	
-})(); 		// to close: (function()  {
+	}; 		// to close: class CWExtraCalcs extends HTMLElement
+	
+	// Return to SAC
+	customElements.define('com-sap-asantos-cwextracalcs', CWExtraCalcs);	
+})(); 			// to close: (function()  {
 
 // Load the necessary library
 function loadLibrary(url) {
